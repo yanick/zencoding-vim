@@ -11,6 +11,6 @@ release: zencoding-vim.zip
 	vimup update-script zencoding.vim
 
 bundle: zencoding-vim.zip
-	rm -f zencoding-vim
+	rm -fr zencoding-vim
 	mkdir zencoding-vim
 	unzip zencoding-vim.zip -d zencoding-vim
